@@ -1,6 +1,6 @@
 async function getItem() {
     const itemId = document.getElementById('itemId').value;
-    const response = await fetch(`https://your-api-url/item/${itemId}`);
+    const response = await fetch(`https://https://localhost:7068/item/${itemId}`);
 
     if (response.ok) {
         const item = await response.json();
